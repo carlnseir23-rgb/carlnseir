@@ -1,0 +1,232 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #e6e8ef;
+  background: #0d1117;
+}
+
+h1, h2, h3 {
+  color: #ffffff;
+}
+
+a {
+  color: hsl(258, 90%, 72%);
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.container {
+  width: 90%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+
+.site-header {
+  background: #11182a;
+  border-bottom: 1px solid hsl(230, 20%, 24%);
+  padding: 1.5rem 0;
+}
+
+.logo {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.nav-list {
+  list-style: none;
+}
+
+.nav-list li + li {
+  margin-top: 0.4rem;
+}
+
+.nav-list a {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #c7cbe0;
+}
+
+
+
+.hero {
+  padding: 3.5rem 0 3rem;
+}
+
+.hero-photo {
+  width: 200px;
+  border: 3px solid hsl(258, 90%, 66%);
+  margin-bottom: 1.5rem;
+}
+
+.hero-text h1 {
+  font-size: 2.75rem;
+  font-weight: 700;
+  line-height: 1.15;
+}
+
+.hero-text h1 + .tagline {
+  font-size: 1.15rem;
+  font-weight: 500;
+  color: hsl(258, 90%, 72%);
+  margin-top: 0.6rem;
+}
+
+.tagline + .hero-sub {
+  color: #a3aac2;
+  margin-top: 0.75rem;
+}
+
+.hero-sub + .button {
+  margin-top: 1.5rem;
+}
+
+
+
+.about {
+  background: #161d2e;
+  padding: 3rem 0;
+}
+
+.about h2 {
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 1rem;
+}
+
+.about h2 ~ p {
+  color: #c7cbe0;
+}
+
+.about p + p {
+  margin-top: 1rem;
+}
+
+
+
+.skills {
+  padding: 3rem 0;
+}
+
+.skills h2 {
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 1.5rem;
+}
+
+.skills-group {
+  margin-bottom: 1.5rem;
+}
+
+.skills-group h3 {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: hsl(258, 90%, 72%);
+  margin-bottom: 0.6rem;
+}
+
+.skills-list {
+  list-style: none;
+}
+
+.skills-list li {
+  padding: 0.4rem 0 0.4rem 0.85rem;
+  border-left: 3px solid hsl(258, 90%, 66%);
+  color: #e6e8ef;
+}
+
+.skills-list li + li {
+  margin-top: 0.5rem;
+}
+
+
+
+.contact {
+  background: #161d2e;
+  padding: 3rem 0 3.5rem;
+}
+
+.contact h2 {
+  font-size: 1.85rem;
+  font-weight: 700;
+  line-height: 1.25;
+  margin-bottom: 1rem;
+}
+
+.contact h2 + p {
+  color: #c7cbe0;
+  margin-bottom: 1.75rem;
+}
+
+.contact-form {
+  background: #11182a;
+  border: 1px solid hsl(230, 20%, 24%);
+  padding: 1.75rem;
+}
+
+.form-row {
+  margin-bottom: 1.1rem;
+}
+
+.form-row label {
+  display: block;
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #c7cbe0;
+  margin-bottom: 0.4rem;
+}
+
+.form-row input,
+.form-row textarea {
+  display: block;
+  width: 100%;
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-size: 1rem;
+  color: #e6e8ef;
+  background: #0d1117;
+  border: 1px solid hsl(230, 20%, 28%);
+  padding: 0.6rem 0.75rem;
+}
+
+.direct-email {
+  color: #a3aac2;
+  font-size: 0.95rem;
+  margin-top: 1.5rem;
+}
+
+
+.button {
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #0d1117;
+  background: hsl(258, 90%, 66%);
+  border: none;
+  padding: 0.65rem 1.4rem;
+  margin-top: 0.5rem;
+}
+
+
+.site-footer {
+  background: #0a0e17;
+  border-top: 1px solid hsl(230, 20%, 20%);
+  padding: 1.5rem 0;
+}
+
+.site-footer p {
+  font-size: 0.875rem;
+  color: #7d84a0;
+}

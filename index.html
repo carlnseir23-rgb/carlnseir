@@ -1,22 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nseir portfolio</title>
-    <link rel="stylesheet" href="css/style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Carl Nseir | Portfolio</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
-<header class="site-header">
-    <a href="#hero" class="logo">Carl Nseir</a>
-    <nav aria-label="Primary">
-      <ul class="nav-list">
-        <li><a href="#about">About</a></li>
-        <li><a href="#skills">Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
- </header>
 <body>
-    
+
+  <header class="site-header">
+    <div class="container">
+      <p class="logo">Carl Nseir</p>
+      <nav aria-label="Primary">
+        <ul class="nav-list">
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <section id="hero" class="hero">
+      <div class="container">
+        <img
+          src="images/carl.jpg"
+          alt="Portrait of Carl Nseir"
+          class="hero-photo"
+        >
+        <div class="hero-text">
+          <h1>Carl Nseir</h1>
+          <p class="tagline">Computer &amp; Communications Engineering Student, ESIB</p>
+          <p class="hero-sub">
+            Second-year CCE student who likes turning ideas into working code.
+          </p>
+          <a href="#contact" class="button">Get in touch</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <h2>About Me</h2>
+        <p>
+          I'm Carl, a second-year Computer and Communications Engineering
+          (CCE) student at ESIB. I'm still early in my studies, but I'm
+          already hooked on the process of learning how the web is built,
+          from the structure of a page to the styling that gives it a
+          personality.
+        </p>
+        <p>
+          Outside of coursework, I split my time between coding practice and
+          sports &mdash; table tennis especially. Both keep me sharp in the
+          same way: quick thinking, steady hands, and learning from every
+          mistake.
+        </p>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <div class="container">
+        <h2>Skills</h2>
+
+        <div class="skills-group">
+          <h3>Technical</h3>
+          <ul class="skills-list">
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>C++</li>
+            <li>VS Code</li>
+          </ul>
+        </div>
+
+        <div class="skills-group">
+          <h3>Beyond the Code</h3>
+          <ul class="skills-list">
+            <li>Table tennis</li>
+            <li>Problem solving</li>
+            <li>Team sports</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>
+          Have a question or just want to say hi? Send me a message below,
+          or email me directly.
+        </p>
+
+        <form class="contact-form">
+          <div class="form-row">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+          </div>
+
+          <div class="form-row">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+          </div>
+
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+          </div>
+
+          <button type="submit" class="button">Send Message</button>
+        </form>
+
+        <p class="direct-email">
+          Prefer email? Reach me at
+          <a href="mailto:carlnseir23@hotmail.com">carlnseir23@hotmail.com</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Carl Nseir. Built with HTML &amp; CSS.</p>
+    </div>
+  </footer>
+
 </body>
 </html>
